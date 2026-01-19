@@ -1,14 +1,95 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=960, initial-scale=1.0" />
-    <title>Ma page web</title>
-  </head>
-
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CV - Nom Prénom</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+ 
   <body>
-    <h1>Hello, World</h1>
-    <p>Merci de lire les consignes dans le README.md</p>
-  </body>
+<main class="container">
+<header class="card header">
+<div class="profile">
+<img
+            class="avatar"
+            src="img/monimage.jpg"
+            alt="Photo de profil de Nom Prénom"
+          />
+ 
+          <div class="identity">
+<h1>Nom Prénom</h1>
+<p class="role">Étudiant ingénieur — ESTIA</p>
+ 
+            <div class="contacts">
+<a href="mailto:monemail@estia.fr">monemail@estia.fr</a>
+<a href="tel:+330605040302">06 05 04 03 02</a>
+</div>
+ 
+            <p class="address">Mon adresse</p>
+</div>
+</div>
+</header>
+ 
+      <!-- FORMATION -->
+<section class="card" id="Formation">
+<h2>Formation</h2>
+<ul class="timeline">
+<li>
+<span>ESTIA — Cycle ingénieur</span>
+<span>2023 - Présent</span>
+</li>
+<li>
+<span>Escuela de Ingeniería de Bilbao — Organisation industrielle</span>
+<span>Sep 2025 - Déc 2025</span>
+</li>
+</ul>
+</section>
+ 
+      <!-- EXPERIENCE -->
+<section class="card" id="Experience">
+<h2>Expérience</h2>
+<ul class="timeline">
+<li>
+<span>ELECTRICITE OTHMANE EL GOUTE — Stagiaire</span>
+<span>Juin 2025 - Août 2025</span>
+</li>
+<li class="details">
+<p>
+              Aide au bureau d’étude, coordination terrain/bureau, rapports de suivi,
+              assistance aux réunions et prise de notes.
+</p>
+</li>
+</ul>
+</section>
+ 
+      <!-- COMPETENCES -->
+<section class="card" id="Competences">
+<h2>Compétences</h2>
+<ul class="chips">
+<li>Gestion de projets</li>
+<li>Lean Manufacturing</li>
+<li>Statistiques & Analyse de données</li>
+<li>Logistique & Simulation</li>
+<li>Qualité & Résolution de problèmes</li>
+<li>Business Intelligence</li>
+</ul>
+</section>
+ 
+      <!-- CENTRES D'INTERET -->
+<section class="card" id="Interets">
+<h2>Centres d’intérêt</h2>
+<ul>
+<li>Musculation</li>
+<li>Volleyball</li>
+<li>Jeux vidéo</li>
+<li>Natation</li>
+</ul>
+</section>
+ 
+      <footer class="footer">
+<p>© Nom Prénom</p>
+</footer>
+</main>
+</body>
 </html>
