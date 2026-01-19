@@ -6,11 +6,11 @@
   --accent: #7aa2ff;
   --border: rgba(255, 255, 255, 0.08);
 }
- 
+
 * {
   box-sizing: border-box;
 }
- 
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +18,7 @@ body {
   color: var(--text);
   line-height: 1.6;
 }
- 
+
 a {
   color: var(--accent);
   text-decoration: none;
@@ -26,13 +26,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
- 
+
 .container {
   max-width: 900px;
   margin: 32px auto;
   padding: 0 16px;
 }
- 
+
 .card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -40,13 +40,13 @@ a:hover {
   padding: 18px 20px;
   margin-bottom: 16px;
 }
- 
+
 .header .profile {
   display: flex;
   gap: 18px;
   align-items: center;
 }
- 
+
 .avatar {
   width: 110px;
   height: 110px;
@@ -54,7 +54,7 @@ a:hover {
   border-radius: 16px;
   border: 2px solid var(--border);
 }
- 
+
 .identity h1 {
   margin: 0;
   font-size: 1.8rem;
@@ -63,32 +63,32 @@ a:hover {
   margin: 4px 0 10px;
   color: var(--muted);
 }
- 
+
 .contacts {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
   margin-bottom: 8px;
 }
- 
+
 .address {
   margin: 0;
   color: var(--muted);
 }
- 
+
 h2 {
   margin: 0 0 10px;
   font-size: 1.2rem;
   border-left: 4px solid var(--accent);
   padding-left: 10px;
 }
- 
+
 .timeline {
   list-style: none;
   padding: 0;
   margin: 0;
 }
- 
+
 .timeline li {
   display: flex;
   justify-content: space-between;
@@ -96,20 +96,20 @@ h2 {
   padding: 10px 0;
   border-bottom: 1px solid var(--border);
 }
- 
+
 .timeline li:last-child {
   border-bottom: none;
 }
- 
+
 .timeline span:first-child {
   font-weight: bold;
 }
- 
+
 .timeline span:last-child {
   color: var(--muted);
   white-space: nowrap;
 }
- 
+
 .details {
   border-bottom: none !important;
   padding-top: 0 !important;
@@ -118,7 +118,7 @@ h2 {
   margin: 0;
   color: var(--muted);
 }
- 
+
 .chips {
   list-style: none;
   padding: 0;
@@ -134,7 +134,7 @@ h2 {
   color: var(--text);
   background: rgba(255, 255, 255, 0.03);
 }
- 
+
 .footer {
   text-align: center;
   color: var(--muted);
